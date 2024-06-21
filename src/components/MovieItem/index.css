@@ -1,0 +1,38 @@
+.popup-container {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  font-family: Roboto;
+}
+
+.video-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  height: auto;
+}
+
+.trigger-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+img {
+  height: 30vh;
+}
+
+@media (max-width: 768px) {
+  img {
+    height: 20vh;
+  }
+
+  .video-container {
+    width: 90vw;
+  }
+  .popup-container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+  }
+}

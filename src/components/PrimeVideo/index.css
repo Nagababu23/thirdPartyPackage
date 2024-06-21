@@ -1,0 +1,31 @@
+.ful {
+  background-color: black;
+  text-align: center;
+}
+
+.bottom {
+  padding: 40px;
+}
+
+.bottom h2 {
+  color: white;
+}
+
+.main {
+  height: 40vh;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .bottom {
+    padding: 20px;
+  }
+
+  .bottom h2 {
+    font-size: 18px;
+  }
+
+  .main {
+    height: 30vh;
+  }
+}
